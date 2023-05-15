@@ -1,0 +1,11 @@
+.parent {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+.child {
+  /* 부모의 가로 길이의 50%만 차지한다. */
+  width: 50%;
+  height: 30px;
+  background-color: red;
+}

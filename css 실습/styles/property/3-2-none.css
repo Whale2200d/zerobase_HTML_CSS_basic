@@ -1,0 +1,16 @@
+div {
+  height: 200px;
+  border: solid;
+}
+
+.box1 {
+  background-color: darkorange;
+}
+.box2 {
+  /* display: none; */
+  visibility: hidden;
+  background-color: greenyellow;
+}
+.box3 {
+  background-color: dodgerblue;
+}

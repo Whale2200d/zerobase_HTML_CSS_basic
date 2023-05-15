@@ -1,0 +1,11 @@
+/* 상대길이 2 */
+/* 뷰포트 백분율 상대길이 */
+.container1 {
+  background-color: coral;
+  height: 50px;
+  /* height: 100vh; */
+  /* height: 50vh; */
+
+  /* width: 100vw; */
+  /* width: 50vw; */
+}

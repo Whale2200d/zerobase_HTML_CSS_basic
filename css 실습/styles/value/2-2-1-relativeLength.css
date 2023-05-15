@@ -1,0 +1,13 @@
+/* 상대길이 1 */
+/* 글꼴 상대길이 */
+/* 1em === 부모의 font-size */
+/* 1rem === root의 font-size */
+.parent1 {
+  /* font-size: 32px; */
+  font-size: 1.5em;
+  /* font-size: 2rem; */
+}
+.child1 {
+  font-size: 0.5em;
+  /* font-size: 0.5rem; */
+}

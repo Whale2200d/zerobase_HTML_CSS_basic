@@ -1,0 +1,7 @@
+/* 상대길이 3 */
+/* vmax, vmin */
+.container2 {
+  background-color: blue;
+  width: 100vmin;
+  height: 100vmin;
+}

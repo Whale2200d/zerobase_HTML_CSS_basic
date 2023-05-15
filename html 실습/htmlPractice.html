@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>htmlPractice</title>
+  </head>
+  <body>
+    <!-- 제목 태그 -->
+    <!-- 1. h1~h6 -->
+    <h1>Heading element</h1>
+
+    <h2>Summary</h2>
+    <p>Some text here...</p>
+
+    <h2>Examples</h2>
+    <h3>Example 1</h3>
+    <p>Some text here...</p>
+    <h3>Example 2</h3>
+    <p>Some text here...</p>
+
+    <h2>See also</h2>
+    <p>Some text here...</p>
+
+    <!-- 본문 태그 -->
+    <!-- 2. p -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit
+      aut deserunt aliquam necessitatibus commodi, velit, voluptate earum
+      voluptatibus quaerat eveniet! Esse delectus veritatis nulla vero odit
+      aspernatur laudantium nihil.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit
+      aut deserunt aliquam necessitatibus commodi, velit, voluptate earum
+      voluptatibus quaerat eveniet! Esse delectus veritatis nulla vero odit
+      aspernatur laudantium nihil.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, fugit
+      aut deserunt aliquam necessitatibus commodi, velit, voluptate earum
+      voluptatibus quaerat eveniet! Esse delectus veritatis nulla vero odit
+      aspernatur laudantium nihil.
+    </p>
+    <!-- 3. br -->
+    <p>
+      Lorem ipsum dolor<br />sit amet consectetur adipisicing elit. Maiores,
+      fugit aut deserunt<br />
+    </p>
+    <!-- 문단 사이에 여백을 두기 위한 용도로 <br>을 사용하지 말 것. 대신 <p> 요소로 감싼 후 CSS의 margin 속성을 이용해 여백크기를 조절할 것  -->
+    <p>
+      aliquam necessitatibus commodi, velit, voluptate<br />
+      earum voluptatibus quaerat eveniet! Esse delectus veritatis<br />
+      nulla vero odit aspernatur laudantium nihil.
+    </p>
+    <!-- 4. blockquote, q -->
+    <!-- 예제 코드 1 -->
+    <!-- 올바른 코드(right code) -->
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur voluptatem dignissimos eaque nam illo tempora odit earum, aperiam voluptates dicta et veniam deserunt fugiat cum, quod tempore facere. Alias.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur voluptatem dignissimos eaque nam illo tempora odit earum, aperiam voluptates dicta et veniam deserunt fugiat cum, quod tempore facere. Alias.</p>
+    </blockquote>
+    <!-- 예제 코드 2 -->
+    <!-- 잘못된 코드(wrong code) : <blockquote>는 <p> 내 사용하면 안된다. <p>는 자식으로 블록 요소가 들어올 경우, 자동으로 닫히기 때문에, 하나의 <p>가 두 개의 <p>로 인식된다. -->
+    <p>
+      선택의 조건이라는 도서에서는 아래와 같이 얘기한다.
+      <blockquote>
+        사람들은 휴식을 부끄러워한다. 오랜 사색에 대해선 양심의 가책까지 느낀다.
+      </blockquote>
+    </p>
+    <!-- 예제 코드 3 -->
+    <!-- 올바른 코드(right code) -->
+    <p>
+      선택의 조건이라는 도서에서는 아래와 같이 얘기한다.
+      <q>
+        사람들은 휴식을 부끄러워한다. 오랜 사색에 대해선 양심의 가책까지 느낀다.
+      </q>
+    </p>
+    <!-- 5. pre -->
+    <pre>
+      L          TE
+        A       A
+          C    V
+           R A
+           DOU
+           LOU
+          REUSE
+          QUE TU
+          PORTES
+        ET QUI T'
+        ORNE O CI
+         VILISÉ
+        OTE-  TU VEUX
+         LA    BIEN
+        SI      RESPI
+                RER       - Apollinaire
+    </pre>
+    <p>텍스트 결과물이 고정폭 글꼴을 사용해 렌더링된다.</p>
+    <!-- 6. figure, figcaption -->
+    <!-- 예제 코드 1 -->
+    <figure>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque assumenda suscipit? Aliquid quo repudiandae molestiae quam tempore id assumenda molestias ipsa! Alias fugit iure molestiae architecto fugiat nulla.</p>
+      <figcaption>by Aiden</figcaption>
+    </figure>
+    <!-- 예제 코드 2 -->
+    <figure>
+      <img src="https://interactive-examples.mdn.mozilla.net/media" />
+      <figcaption>An elephant at sunset</figcaption>
+    </figure>
+    <!-- 예제 코드 3 -->
+    <figure>
+      <pre>
+        H  e  l  l  o
+        W  o  r  l  d
+      </pre>
+      <figcaption>위 그림은 특수문자로 만든 hello이다.</figcaption>
+    </figure>
+    <!-- 7. hr -->
+    <!-- 8. abbr, address, cite, bdo -->
+    <!-- <abbr> 약어(abbreviation) -->
+    <p>
+      <abbr title=""World Wide Web">WWW</abbr>
+      <abbr title=""HyperText Markup Language">HTML</abbr>
+    </p>
+    <!-- <address> 주소 -->
+    <address>
+      You can contact author at <a href="http://www.somedomain.com/contact">
+      If you see any bugs, please <a href="mailto:webmaster@somedomain.com">
+      You may also want to visit us:<br />
+      Mozilla Foundation<br />
+      331 E Evelyn Ave<br />
+      Mountain View, CA 94041<br />
+      USA
+    </address>
+    <!-- <cite> 인용의 출처 -->
+    <figure>
+      <blockquote>
+        <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+      </blockquote>
+      <figcaptio>
+        First sentence in <cite>Nineteen Eighty-Four</cite> by George Orwell (Part 1, Chapter 1).
+      </figcaptio>
+    </figure>
+    <!-- <bdo> bidirectional override -->
+    <p>이 글은 왼쪽에서 오른쪽으로 작성됩니다.</p>
+    <p><bdo dir='rtl'>이 글은 왼쪽에서 오른쪽으로 작성됩니다.</bdo></p>
+
+    <!-- 포매팅 태그 -->
+    <!-- 9. b, strong -->
+    <!-- 10. i, em -->
+    <!-- 11. mark, small, sub, sup -->
+    <!-- 12. del, ins, code, kbd  -->
+
+    <!-- 13 ~ 14. a태그와 하이퍼링크 -->
+
+    <!-- 15. 엔티티(Entity) -->
+  </body>
+</html>

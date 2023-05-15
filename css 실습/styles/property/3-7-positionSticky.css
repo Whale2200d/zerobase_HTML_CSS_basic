@@ -1,0 +1,23 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  margin-left: 150px;
+}
+
+#parent {
+  position: sticky;
+  top: 100px;
+  left: 100px;
+}
+
+#box {
+  width: 75px;
+  height: 75px;
+  border-color: darkblue;
+  background-color: cornflowerblue;
+
+  /* position: sticky;
+  top: 100px;
+  left: 100px; */
+}
